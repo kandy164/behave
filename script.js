@@ -1,8 +1,8 @@
 // Handle Yes button click
 document.getElementById("yesBtn").addEventListener("click", () => {
-  alert("Kandy Jr says I love you too 💖 Let's go on a date! Message me here 👉 https://www.facebook.com/Cowboykandy");
+  alert("Kandy Jr says I love you too 💖 Let's go on a date!");
+  document.getElementById("fbLink").style.display = "block"; // show Facebook button
 });
-
 
 // Handle No button hover/tap (make it run away)
 const noBtn = document.getElementById("noBtn");
