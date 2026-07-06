@@ -1,6 +1,6 @@
 // Handle Yes button click
 document.getElementById("yesBtn").addEventListener("click", () => {
-  alert("Yay! I love you too 💖");
+  alert("Kandy Jr says I love you too 💖 Let's go on a date!");
 });
 
 // Handle No button hover/tap (make it run away)
